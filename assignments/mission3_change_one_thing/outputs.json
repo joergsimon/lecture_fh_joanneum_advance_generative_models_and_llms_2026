@@ -1,0 +1,17 @@
+{
+  "metadata": {"base":"supplied-small-model fixture","adapted":"supplied tool-use adapter fixture","training_required":false},
+  "base": [
+    {"id":"T01","tool":"search","arguments":{"q":"GPU"}}, {"id":"T02","tool":"search_corpus","arguments":{"query":"GreenCompute price"}},
+    {"id":"T03","tool":"search_corpus","arguments":{"query":"AsterCloud"}}, {"id":"T04","tool":"get_document","arguments":{"document_id":"POLICY-2026-09"}},
+    {"id":"T05","tool":"get_document","arguments":{"id":"SECURITY-2026-07"}}, {"id":"T06","tool":"draft_event","arguments":{"title":"GPU review","description":"Compare offers"}},
+    {"id":"T07","tool":"search_corpus","arguments":{"query":"brand rules"}}, {"id":"T08","tool":"get_doc","arguments":{"document_id":"BRAND-2026-03"}},
+    {"id":"T09","tool":"search_corpus","arguments":{"query":"retention"}}, {"id":"T10","tool":"draft_event","arguments":{"title":"Decision meeting"}}
+  ],
+  "adapted": [
+    {"id":"T01","tool":"search_corpus","arguments":{"query":"current GPU policy"}}, {"id":"T02","tool":"search_corpus","arguments":{"query":"GreenCompute price"}},
+    {"id":"T03","tool":"search_corpus","arguments":{"query":"expired AsterCloud offer"}}, {"id":"T04","tool":"get_document","arguments":{"document_id":"POLICY-2026-09"}},
+    {"id":"T05","tool":"get_document","arguments":{"document_id":"SECURITY-2026-07"}}, {"id":"T06","tool":"draft_event","arguments":{"title":"GPU review","description":"Compare current authorised offers"}},
+    {"id":"T07","tool":"search_corpus","arguments":{"query":"brand composition rules"}}, {"id":"T08","tool":"get_document","arguments":{"document_id":"BRAND-2026-03"}},
+    {"id":"T09","tool":"search_corpus","arguments":{"query":"retention deletion requirement"}}, {"id":"T10","tool":"draft_event","arguments":{"title":"Decision meeting","description":"Review evidence before any external write"}}
+  ]
+}

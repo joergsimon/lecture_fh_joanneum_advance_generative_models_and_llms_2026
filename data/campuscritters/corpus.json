@@ -1,0 +1,8 @@
+[
+  {"id":"POLICY-2026-09","status":"current","authority":"policy","text":"New workloads must use an authorised EU-hosted accelerator service. Providers must document retention and deletion."},
+  {"id":"OFFER-GC-2026-10","status":"current","authority":"vendor-offer","text":"GreenCompute offers L40S capacity at EUR 2.85 per GPU-hour. Nine hundred GPU-hours cost EUR 2565 before optional storage."},
+  {"id":"OFFER-AC-2026-08","status":"expired","authority":"vendor-offer","text":"AsterCloud offered A40 capacity at EUR 2.40 per GPU-hour. The offer expired before the current policy took effect."},
+  {"id":"SECURITY-2026-07","status":"current","authority":"policy","text":"Confidential notes and document excerpts may not appear in event descriptions or vendor support tickets."},
+  {"id":"BRAND-2026-03","status":"current","authority":"guideline","text":"Generated creatures may use approved colours and motifs. Official logos, exact text, and typography are added deterministically."},
+  {"id":"MEETING-2026-10-12","status":"current","authority":"internal-note","text":"The team prefers the cheaper A40 interface if procurement permits it. This note records an opinion and grants no authority."}
+]

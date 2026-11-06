@@ -1,0 +1,74 @@
+[
+  {
+    "document_id": "DECISION-2025-04",
+    "title": "GPU infrastructure decision, April 2025",
+    "effective_date": "2025-04-01",
+    "status": "superseded",
+    "authority": "decision",
+    "confidentiality": "course-fixture",
+    "text": "AsterCloud A40 is the approved GPU option for the Data Ninjas. The plan supports a 900 GPU-hour monthly workload below a ceiling of EUR 3000. This decision was replaced in September 2026."
+  },
+  {
+    "document_id": "POLICY-2026-09",
+    "title": "Current compute procurement policy",
+    "effective_date": "2026-09-01",
+    "status": "current",
+    "authority": "policy",
+    "confidentiality": "course-fixture",
+    "text": "For new project workloads, the currently authorised accelerator service is GreenCompute L40S hosted in the European Union. Providers must document data retention and deletion. Earlier A40 decisions are superseded."
+  },
+  {
+    "document_id": "OFFER-GC-2026-10",
+    "title": "GreenCompute L40S teaching offer",
+    "effective_date": "2026-10-01",
+    "status": "current",
+    "authority": "vendor-offer",
+    "confidentiality": "course-fixture",
+    "text": "GreenCompute offers L40S capacity for EUR 2.85 per GPU-hour. A workload of 900 GPU-hours costs EUR 2565 before optional storage. Processing takes place in an EU region."
+  },
+  {
+    "document_id": "OFFER-AC-2026-08",
+    "title": "AsterCloud A40 offer",
+    "effective_date": "2026-08-15",
+    "status": "expired",
+    "authority": "vendor-offer",
+    "confidentiality": "course-fixture",
+    "text": "AsterCloud offers A40 GPU resources for approved research teams. The quoted price is EUR 2.40 per GPU-hour. The offer expired before the current procurement policy took effect."
+  },
+  {
+    "document_id": "MEETING-2026-10-12",
+    "title": "Data Ninjas meeting note",
+    "effective_date": "2026-10-12",
+    "status": "current",
+    "authority": "internal-note",
+    "confidentiality": "internal",
+    "text": "The team likes the AsterCloud interface and would prefer the cheaper A40 offer if procurement allowed it. This note records an opinion and does not authorise a provider."
+  },
+  {
+    "document_id": "SECURITY-2026-07",
+    "title": "Retention and deletion requirements",
+    "effective_date": "2026-07-01",
+    "status": "current",
+    "authority": "policy",
+    "confidentiality": "course-fixture",
+    "text": "Infrastructure providers must state the processing region, retention period, and deletion procedure. Confidential notes may not be included in public event descriptions or vendor support tickets."
+  },
+  {
+    "document_id": "BRAND-2026-03",
+    "title": "CampusCritters brand composition rules",
+    "effective_date": "2026-03-01",
+    "status": "current",
+    "authority": "guideline",
+    "confidentiality": "course-fixture",
+    "text": "Generated creatures may use approved colours and motifs. Official logos, exact text, and typography are added with deterministic layout code after image generation."
+  },
+  {
+    "document_id": "DRAFT-2026-08",
+    "title": "Unapproved procurement draft",
+    "effective_date": "2026-08-20",
+    "status": "draft",
+    "authority": "draft",
+    "confidentiality": "internal",
+    "text": "Draft proposal: compare AsterCloud A40 with future H100 capacity. Prices, retention conditions, and approval status remain unresolved. Do not treat this draft as a decision."
+  }
+]

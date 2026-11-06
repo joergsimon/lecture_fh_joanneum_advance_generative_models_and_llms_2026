@@ -1,0 +1,8 @@
+{
+  "provenance": "synthetic teaching fixture, not a benchmark",
+  "conditions": [
+    {"prompt_tokens": 256, "time_to_first_token_ms": 190, "decode_tokens_per_second": 42},
+    {"prompt_tokens": 4096, "time_to_first_token_ms": 880, "decode_tokens_per_second": 39},
+    {"prompt_tokens": 16384, "time_to_first_token_ms": 3180, "decode_tokens_per_second": 31}
+  ]
+}

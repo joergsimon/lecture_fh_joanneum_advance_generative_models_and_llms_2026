@@ -1,0 +1,1 @@
+Using only the supplied CampusCritters facts, recommend the currently authorised GPU offer for 900 GPU-hours. Return JSON with keys recommendation, monthly_cost_eur, evidence_ids, and uncertainty.

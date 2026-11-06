@@ -1,0 +1,102 @@
+{
+  "started_at": "2026-11-05T22:11:41.862996+00:00",
+  "profile": {
+    "name": "local",
+    "description": "Laptop/lab baseline for mechanism exploration.",
+    "levels": 16,
+    "hidden": 64,
+    "depth": 7,
+    "epochs": 8,
+    "limit": 30000,
+    "validation_examples": 3000,
+    "batch_size": 128,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "num_workers": 2,
+    "use_bfloat16": false,
+    "use_compile": false,
+    "channels_last": false,
+    "sample_count": 4,
+    "completion_count": 4,
+    "downsample": 1
+  },
+  "device": {
+    "device": "mps",
+    "torch_version": "2.8.0.dev20250401",
+    "cuda_version": null,
+    "gpu_name": "Apple Metal Performance Shaders"
+  },
+  "seed": 29,
+  "compile_enabled": false,
+  "train_examples": 27000,
+  "validation_examples": 3000,
+  "test_examples": 10000,
+  "image_size": [
+    28,
+    28
+  ],
+  "finished_at": "2026-11-05T22:13:06.197110+00:00",
+  "elapsed_seconds": 84.33403074997477,
+  "best_validation_bpd": 1.1237529500620802,
+  "test_bpd": 1.1225147049265882,
+  "best_checkpoint": "checkpoints/pixelcnn_fashionmnist_local.pt",
+  "latest_checkpoint": "checkpoints/pixelcnn_fashionmnist_local_latest.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_bpd": 1.893266404620752,
+      "validation_bpd": 1.435461745495952,
+      "learning_rate": 0.0019238795325112869,
+      "seconds": 13.869709624908864
+    },
+    {
+      "epoch": 2,
+      "train_bpd": 1.3393988553714,
+      "validation_bpd": 1.2874275652712794,
+      "learning_rate": 0.0017071067811865476,
+      "seconds": 8.288869333919138
+    },
+    {
+      "epoch": 3,
+      "train_bpd": 1.2441552759290653,
+      "validation_bpd": 1.216842274198854,
+      "learning_rate": 0.0013826834323650901,
+      "seconds": 8.298919540946372
+    },
+    {
+      "epoch": 4,
+      "train_bpd": 1.1899483019982953,
+      "validation_bpd": 1.17230885510281,
+      "learning_rate": 0.0010000000000000002,
+      "seconds": 8.287489666021429
+    },
+    {
+      "epoch": 5,
+      "train_bpd": 1.1518636415867691,
+      "validation_bpd": 1.146765159391276,
+      "learning_rate": 0.0006173165676349105,
+      "seconds": 8.34913054201752
+    },
+    {
+      "epoch": 6,
+      "train_bpd": 1.132195226350299,
+      "validation_bpd": 1.1322845816189429,
+      "learning_rate": 0.0002928932188134526,
+      "seconds": 8.426959207979962
+    },
+    {
+      "epoch": 7,
+      "train_bpd": 1.122543332380764,
+      "validation_bpd": 1.125726691737723,
+      "learning_rate": 7.612046748871329e-05,
+      "seconds": 8.458126291981898
+    },
+    {
+      "epoch": 8,
+      "train_bpd": 1.1187019815496795,
+      "validation_bpd": 1.1237529500620802,
+      "learning_rate": 0.0,
+      "seconds": 8.537037166999653
+    }
+  ]
+}

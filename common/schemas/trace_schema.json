@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scout trace",
+  "type": "object",
+  "required": ["trace_id", "variant", "task_id", "events", "success", "policy_violation", "latency_ms", "cost_eur"],
+  "properties": {
+    "trace_id": {"type": "string"},
+    "variant": {"enum": ["permissive", "controlled"]},
+    "task_id": {"type": "string"},
+    "events": {"type": "array", "items": {"type": "object"}},
+    "success": {"type": "boolean"},
+    "policy_violation": {"type": "boolean"},
+    "latency_ms": {"type": "number", "minimum": 0},
+    "cost_eur": {"type": "number", "minimum": 0}
+  }
+}

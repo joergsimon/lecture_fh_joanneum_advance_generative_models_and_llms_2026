@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these teaching materials, please cite this repository."
+title: "Advanced Generative Methods and Large Language Models"
+type: software
+authors:
+  - family-names: Simon
+    given-names: Jörg
+repository-code: "https://github.com/joergsimon/lecture_fh_joanneum_advance_generative_models_and_llms_2026"
+url: "https://github.com/joergsimon/lecture_fh_joanneum_advance_generative_models_and_llms_2026"
+date-released: 2026-10-30

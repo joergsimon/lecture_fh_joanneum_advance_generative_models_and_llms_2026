@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lecture 2, generative models in motion</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <p id="boot" hidden>
+    Open this page through Jupyter, or from the demos folder run python -m http.server 8765 and visit /intuition/. A direct file link cannot load the modules.
+  </p>
+  <header>
+    <h1 id="title">Four pixels</h1>
+    <nav id="nav" aria-label="Demonstrations"></nav>
+  </header>
+  <main>
+    <div class="stage">
+      <canvas id="gl"></canvas>
+      <canvas id="ink" aria-label="Generative model demonstration"></canvas>
+    </div>
+    <aside>
+      <p id="sentence"></p>
+      <p id="try"></p>
+      <div class="transport">
+        <button id="play" type="button" aria-pressed="true">
+          <svg class="icon icon-play" viewBox="0 0 16 16" aria-hidden="true" hidden>
+            <path d="M5 3.1v9.8L13.2 8 5 3.1z"/>
+          </svg>
+          <svg class="icon icon-pause" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M4.4 3h2.3v10H4.4V3zm4.9 0h2.3v10H9.3V3z"/>
+          </svg>
+          <span>Pause</span>
+        </button>
+        <button id="step" type="button">
+          <svg class="icon" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M3 3h1.7v10H3V3zm3.2.35v9.3L13.2 8 6.2 3.35z"/>
+          </svg>
+          <span>Step</span>
+        </button>
+      </div>
+      <div id="modes"></div>
+      <div id="controls"></div>
+      <div id="choices"></div>
+      <div id="actions"></div>
+      <p id="product" hidden></p>
+      <div id="readouts"></div>
+      <p id="limit"></p>
+      <p id="keys">Space pauses. Keys 1 to 5 switch demonstrations.</p>
+    </aside>
+  </main>
+  <script>
+    if (location.protocol === "file:") document.getElementById("boot").hidden = false;
+  </script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

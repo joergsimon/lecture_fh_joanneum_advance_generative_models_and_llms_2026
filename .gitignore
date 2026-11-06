@@ -1,0 +1,46 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Jupyter and local runtimes
+.ipynb_checkpoints/
+.runtime/
+.matplotlib-cache/
+executed/
+
+# Downloaded data and large generated artifacts
+data/FashionMNIST/
+data/MNIST/raw/
+*.safetensors
+*.ckpt
+*_latest.pt
+*_smoke.pt
+*.onnx
+
+# Slide-production and media files are distributed through Moodle
+*.ppt
+*.pptx
+*.key
+*.mp4
+*.mov
