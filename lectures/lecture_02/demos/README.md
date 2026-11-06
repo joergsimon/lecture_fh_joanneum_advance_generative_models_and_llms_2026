@@ -26,7 +26,7 @@ cd lectures/lecture_02/demos
 uv venv --python 3.11
 source .venv/bin/activate          # macOS or Linux
 # Windows PowerShell: .venv\Scripts\Activate.ps1
-uv pip install -r requirements-lock.txt
+uv pip install -r requirements.txt
 python -m jupyter lab
 ```
 
@@ -77,7 +77,11 @@ python -c "import torch, torchvision, numpy, matplotlib; print('PyTorch', torch.
 python tools/verify_demos.py
 ```
 
-`requirements-lock.txt` records the exact versions used for the final clean-environment validation. `requirements.txt` remains the shorter compatibility specification if the lock file does not support a future platform.
+`requirements.txt` is the portable student installation. `requirements-lock.txt`
+records the exact versions used for the final clean-environment validation and
+can be used when exact reproduction is more important than platform
+portability. The repository-level [setup guide](../../../SETUP.md) covers fresh
+machine installation, Windows, CUDA, Apple Silicon, and CPU-only use.
 
 The verifier creates temporary Jupyter configuration under `.runtime/`, selects the current environment's Python kernel explicitly, enables the CPU-safe quick profile, and stores executed copies in `executed/`.
 

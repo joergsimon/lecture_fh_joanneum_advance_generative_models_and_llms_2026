@@ -39,7 +39,20 @@ Git stores versioned code and evidence. Moodle records the official submission, 
 
 ## Quick start
 
-Clone the repository and read [SETUP.md](SETUP.md):
+The recommended route uses `uv`; it can install Python 3.11 as well as the
+course environment. Install it first if necessary:
+
+```bash
+# macOS with Homebrew
+brew install uv
+
+# Windows with WinGet
+winget install --id=astral-sh.uv -e
+```
+
+Linux users and anyone who prefers another installation method should use the
+[official uv installation guide](https://docs.astral.sh/uv/getting-started/installation/).
+Then clone the repository:
 
 ```bash
 git clone https://github.com/joergsimon/lecture_fh_joanneum_advance_generative_models_and_llms_2026.git
@@ -53,10 +66,15 @@ cd lectures/lecture_02/demos
 uv venv --python 3.11
 source .venv/bin/activate
 uv pip install -r requirements.txt
+python tools/verify_demos.py
 python -m jupyter lab
 ```
 
-Conda/Miniforge and standard `venv` instructions are included in the demo guide. Code selects CUDA first, then Apple MPS, then CPU. No paid API is required.
+On Windows PowerShell, activate with `.venv\Scripts\Activate.ps1`. Conda,
+Miniforge, standard `venv`, CUDA, and Apple Silicon instructions are in
+[SETUP.md](SETUP.md). Common problems and their fixes are collected in
+[TROUBLESHOOTING.md](TROUBLESHOOTING.md). Code selects CUDA first, then Apple
+MPS, then CPU. No paid API is required.
 
 ## Responsible use
 
